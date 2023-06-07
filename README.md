@@ -1,4 +1,4 @@
-# Strivers-SDE-Sheet---Challange
+# Strivers-SDE-Sheet-Challenge
 
 Link to Striver's SDE Sheet Challange : https://takeuforward.org/interviews/strivers-sde-sheet-challenge-2023/
 
