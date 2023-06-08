@@ -1,0 +1,20 @@
+bool searchMatrix(vector<vector<int>>& mat, int target) {
+        int rows = mat.size();
+        int cols = mat[0].size();
+        
+        int start = 0;
+        int end = rows*cols-1;
+        int mid = start+(end-start)/2;
+        while(start<=end){
+            int posOfMid = mat[mid/cols][mid%cols];
+            if(posOfMid == target){
+                return true;
+            }
+            else if(posOfMid<target){
+                start = mid+1;
+            }
+            else end = mid-1;
+            mid = start+(end-start)/2;
+        }
+    return false;
+}
